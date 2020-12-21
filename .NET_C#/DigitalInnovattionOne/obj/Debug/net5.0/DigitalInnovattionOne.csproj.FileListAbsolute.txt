@@ -1,0 +1,16 @@
+C:\Users\Gabriel\Desktop\GITHUB\bootcamps\Bootcamp-Avanade\.NET_C#\DigitalInnovattionOne\bin\Debug\net5.0\DigitalInnovattionOne.exe
+C:\Users\Gabriel\Desktop\GITHUB\bootcamps\Bootcamp-Avanade\.NET_C#\DigitalInnovattionOne\bin\Debug\net5.0\DigitalInnovattionOne.deps.json
+C:\Users\Gabriel\Desktop\GITHUB\bootcamps\Bootcamp-Avanade\.NET_C#\DigitalInnovattionOne\bin\Debug\net5.0\DigitalInnovattionOne.runtimeconfig.json
+C:\Users\Gabriel\Desktop\GITHUB\bootcamps\Bootcamp-Avanade\.NET_C#\DigitalInnovattionOne\bin\Debug\net5.0\DigitalInnovattionOne.runtimeconfig.dev.json
+C:\Users\Gabriel\Desktop\GITHUB\bootcamps\Bootcamp-Avanade\.NET_C#\DigitalInnovattionOne\bin\Debug\net5.0\DigitalInnovattionOne.dll
+C:\Users\Gabriel\Desktop\GITHUB\bootcamps\Bootcamp-Avanade\.NET_C#\DigitalInnovattionOne\bin\Debug\net5.0\ref\DigitalInnovattionOne.dll
+C:\Users\Gabriel\Desktop\GITHUB\bootcamps\Bootcamp-Avanade\.NET_C#\DigitalInnovattionOne\bin\Debug\net5.0\DigitalInnovattionOne.pdb
+C:\Users\Gabriel\Desktop\GITHUB\bootcamps\Bootcamp-Avanade\.NET_C#\DigitalInnovattionOne\obj\Debug\net5.0\DigitalInnovattionOne.csprojAssemblyReference.cache
+C:\Users\Gabriel\Desktop\GITHUB\bootcamps\Bootcamp-Avanade\.NET_C#\DigitalInnovattionOne\obj\Debug\net5.0\DigitalInnovattionOne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\Desktop\GITHUB\bootcamps\Bootcamp-Avanade\.NET_C#\DigitalInnovattionOne\obj\Debug\net5.0\DigitalInnovattionOne.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Desktop\GITHUB\bootcamps\Bootcamp-Avanade\.NET_C#\DigitalInnovattionOne\obj\Debug\net5.0\DigitalInnovattionOne.AssemblyInfo.cs
+C:\Users\Gabriel\Desktop\GITHUB\bootcamps\Bootcamp-Avanade\.NET_C#\DigitalInnovattionOne\obj\Debug\net5.0\DigitalInnovattionOne.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Desktop\GITHUB\bootcamps\Bootcamp-Avanade\.NET_C#\DigitalInnovattionOne\obj\Debug\net5.0\DigitalInnovattionOne.dll
+C:\Users\Gabriel\Desktop\GITHUB\bootcamps\Bootcamp-Avanade\.NET_C#\DigitalInnovattionOne\obj\Debug\net5.0\ref\DigitalInnovattionOne.dll
+C:\Users\Gabriel\Desktop\GITHUB\bootcamps\Bootcamp-Avanade\.NET_C#\DigitalInnovattionOne\obj\Debug\net5.0\DigitalInnovattionOne.pdb
+C:\Users\Gabriel\Desktop\GITHUB\bootcamps\Bootcamp-Avanade\.NET_C#\DigitalInnovattionOne\obj\Debug\net5.0\DigitalInnovattionOne.genruntimeconfig.cache
