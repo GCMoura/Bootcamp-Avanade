@@ -1,0 +1,83 @@
+## Conceitos para sucesso
+
+* Estorias x Tarefas
+
+Quando todos os épicos estiverem concluidos o projeto estará pronto.
+O projeto é um conjunto dos épicos.
+
+Para realizar uma estoria, preciso realizar tarefas.
+
+uma estoria é um conjunto de tarefas
+um épico é um conjunto de estorias
+
+Estoria - deve ser descrita em nivel de negocio. O que deve ser feito, para que 
+servirá o produto.
+
+tarefa é o conjjnto de atividades desempenhadas para entregar a estoria
+
+* criterios de aceite
+
+é uma lista de critérios que precisam ser alcançados para que a 
+User Story atenda os requisitos dos usuários e seja aceito pelo PO.
+Os criterios de aceitação tem o objetivo de: definir limites para
+as user stories. Ajudar o PO a detalhar em alto nivel o que é necessário para entregar valor ao cliente.
+
+Estimativas e planejamento:
+Planning poker -  estima o tempo de entrega do produto. Simples recebe 1. Dificil recebe 13
+20 pontos a estoria é grande e deve dividir em outras estorias
+os pontos são discutidos.
+
+O PO junto com DEV le as estorias e tira as duvidas
+
+O time quebra as tarefas e define - não tem PO
+Para cada estoria, são descritas as tarefas pelo time DEV
+
+* Rotinas ágil
+
+Daily - 15 minutos - Time DEV - Todos os dias no mesmo horário
+Para que cada um saiba o que os outros estão fazendo
+É cobrado - o que fiz? o que farei hoje? qual o impedimento?
+
+Retrospectiva - uma vez após a sprint - Tem PO, não obrigatorio
+Pontos bons e ruins na sprint. Discutir o que pode ser melhorado.
+Foca na sprint como um todo.
+
+Refinamento
+
+é uma cerimonia não oficial para que o tipo junto com o PO discuta o proximo sprint
+
+aumenta o entendimento da demanda. DEV faz perguntas ao PO
+A estoria já deve estar bem escrita nesse momento.
+Facilitar a planning.
+Todos devem perticipar.
+
+Review - DEV apresenta. Mostra o trabalho de cada um na sprint 
+tira duvida tecnicas
+Todos participam.
+Todos os envolvidos precisam estar, para validar o que foi solicitado inicialmente.
+Verifica se a demanda agrega valor ao negocio
+Agregar valor ao negocio?
+
+* maturidade da equipe
+
+pilares - transparencia - inspeção - adaptação
+
+compromentimento, coragem, abertura, foco, respeito
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

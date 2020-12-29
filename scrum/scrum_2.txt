@@ -1,0 +1,93 @@
+## Fundamentos de um projeto agil
+
+### Aula 1
+
+* papeis e responsabilidades
+
+Product Owner - PO
+
+Representa o profissional que tem a visão do que será desenvolvido, as necessidades a serem atendidas,
+o público que vai utilizar os serviços e os objetivos a serem alcançados.
+
+Representante da area de negocio;
+PO não é comitê;
+Define as funcionalidades do software;
+Prioriza funcionalidades de acordo com o valor do negócio;
+garante que o time de desenvolvimento entenda os itens do Backlog;
+
+Está presente na Daily e no Review
+
+Refining - o time já saberá o que será definido 
+
+Planing - ninguem sai com dúvida. as regras de negócio está clara
+
+PO não participa na segunda etapa da Planing - DEV escreve quais atividades devem ser desenvolvidas
+
+Release planing - liberação ou lançamentos de software. 
+é o lançamento de nova versão oficial de produto de software.
+Pode acumular sprint.
+
+dois tipoos:
+Múltiplas squads - varios times fazendo várias atividades. 
+Ao final da sprint são agrupadas em uma unica release. Não tem ação direta do PO.
+
+De Projeto - PO precisa quebrar em várias sprints. Precisa ser senior.
+Priorizar as entregas de maior valor. Ponto crítico.
+
+* Analisando escopo e definindo prioridades
+
+Definir escopo é invertendo a ordem e descobrindo qual o valor e o objetivo que quer alcançar.
+É importante inspecionar cada entrega. 
+
+Product Backlog - é composto por épicos e estórias
+
+Épico - incremento sem detalhamento, ajuda a te direcionar para caminhos que deve seguir
+
+Estória - Detalhamentos dos épicos, 
+Um épico normalmente se divide em varias estorias onde ficam
+descritos o que deve acontecer e suas regras de negocio.
+
+Escrevendo uma estoria:
+
+Nome;
+Descrição;
+regras de negocio;
+Tela;
+KPI - Quais os objetivos/valor a estoria precisa atingir
+Tagueamento;
+Criterio de aceite.
+
+Riscos:
+Positivos: muito ignorado nos projetos, porem um dos fatores de maiores 
+ganhos no desenvolviemntos de sistemas.
+
+Negativo: itens que podem afetar o prazo, custos ou escopo de um projeto 
+de maneira que pode acabar inviabilizando-o.
+
+
+* Papel do PO na transformação digital
+
+Transformação digital é um processo no qual empresas fazem de uso da tecnologia 
+para melhorar seu desempenho, aumentar o alcance e garantir resultados melhores.
+É uma mudança estrutural nas organizações dando um papel essencial para a tecnologia.
+É sobre pessoas. Diminuir processos, atritos e potencializar resultados.
+Mudança de mindset.
+
+PO - representa a mudança na forma de tratar os projetos.
+Menos pessoas fazendo mais coisas. 
+PO é o orquestrador, juntar as pequenas partes e planejar o desenvolvimento do produto.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

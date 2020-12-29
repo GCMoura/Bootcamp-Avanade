@@ -1,0 +1,134 @@
+## Aula 3
+
+Arquitetura em nuvem
+
+* Cloud Computing
+
+Gerenciamento de hardware e software
+Provedores de servidor e armazenamento
+Pague o que consumir
+Iaas - Infraestrutura como um serviço (Google cloud - AWS - Azure)
+Paas - Plataforma como um serviço - além de infraestrutura uma plataforma - automatizar o processo (Terraform - CloudFormation)
+Baas - Backend como serviço - prove serviço de backend para aplicações 
+Ou mobile backend como serviço (firebase)
+
+* Disponibilidade
+
+IaaS - hardwrae e internet
+PaaS - Auto scale on the go
+BaaS - não há backend service
+
+Kubernets (K8S)
+Multiplos nodos
+Load Balancer
+
+* Serveless
+(API gateway - Amazon Kinesis (mensageria) - AWS Lambda mais curta possível (http) - Amazon S3 (chama uma função do código))
+
+Sem servidor
+Sem servidor rodando
+Sem down time
+
+## Aula 4 
+
+* DevOps
+
+Práticas de automatização para integrar as áreas de desenvolvimento, QA e operações de TI
+É um termo criado para definir o conjunto de práticas que integram e automatizam os processos entre as equipes de desenvolvimento, 
+operações e apoio como (QA) para a produção rápida e confiável de software
+
+Baseia-se em criar uma cultura de colaboração entre as equipes que sempre trabalharam separadas.
+DevOps é uma mudança de mentalidade, uma cultura, um movimento, uma filosofia.
+
+Framework CALMS
+- cultura (mais forte) - Todas as ferramenta e automações são inúteis se não forem acompanhadas 
+pela verdadeira disposição da área de desenvolvimento e operações em trabalhar juntos.
+
+- automatização - elimina o trabalho manual e repetitivo, produz processos repetíveis e cria sistemas confiáveis.
+Automatizar gera velocidade na entrega e tornam os envolvidos mais produtivos.
+
+- Lean - entregas de valor ao cliente. Precisamos ser objetivos e enxutos.
+Precisamos conhecer as limitações e os gargalos do processo.
+Dinamismo. Otimizar o fluxo de entrega, com eficiencia e velocidade
+
+- mensuração - DevOps é cíclico e infinito. Mensurar e obter métricas é o ponto de partida para novas melhorias.
+Criam previsibiliade sobre incidentes. Analisar falhas e gerar melhorias constantes.
+
+- compartilhamento -  de informações, além de ser saudável, auxilia na descentralização de conhecimento em pessoas no time.
+evitando os processos dependentes. Criação de times genéricos. autosustentável.
+
+Caminhos:
+
+Flow - elimina desperdícios, gargalos no processo, transferência de responsabilidades e tempos de espera.
+Esse caminho é trilhado entre a demanda e a entrega em produção.
+A achve para este caminho é a aplicação de metodologias ageis, automatização dos processos do desenvolvimento à release.
+
+Feedback - visam resolver problemas o quanto antes testando tudo, alertando em qualquer flahas, considerando todas as métricas.
+O monitoramento é a chave, gera informações relevantes constantemente.
+
+Learning - aprendizado contínuo visa gerar conhecimento durante todo o desenvolvimento do software.
+Caminho do processo científico e produz segurança psicológica.
+É o trabalho dinâmico com o time realizando experimentos em trabalho diário para gerar novas melhorias. Elimina a cultura da culpa e aumenta a colaboração.
+
+Entregando software:
+Planejamento: 
+teams - draw.io - balsamiq - roadmunk confluence - jira
+Codigo:
+VScode - github - sublie - cmder - git - notepad
+Build:
+container - docker - npm - cri-o - .net cli - msbuild
+Teste:
+Unit - loader - meter - selenium - runscope - postman - codacy
+Release:
+Disponibilizar para o cliente o deploy
+Deploy: 
+Azure - gitlab - jenkins - appveyor - circleci - travis
+Operate:
+kubernets - rancher - puppet - aws - terraform - chef - azure
+Monitor:
+datadog - prometheus - new relic - seq - monitis - zabbix - roolbar - pushover
+
+* Continuous integration
+
+CI - limite a geração do artefato, não vai para a produção
+
+implantação continua - deploy de forma automatica, a aplicação está em produção
+
+entrega continua - necessita de um aprovador no meio do caminho para deploy em produção
+
+ferramentas:
+circle ci - azure - travis - app veyor (before - after) - gitlab ci - jenkins
+
+* Continuous inspection
+
+Ferramentas: sonarqube - code climate - codacy
+
+Servem para identificar complexidades ciclomatica da aplicação
+Quantos caminhos independentes seu código pode seguir. 
+Quanto mais caminhos, mais complexo
+
+Vulnerabilidade - 
+É ter o password atrelado e disponível no código
+Evitar código comentado. 
+Padronização, estilo, automatização
+Cobertura de testes, Métricas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

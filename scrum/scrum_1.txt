@@ -1,0 +1,149 @@
+## Aula 1
+
+Introdução SCRUM
+
+Gestaõ de projetos:
+
+Tradicional - só permite que o projeto avance quando uma fase está inteiramente completa
+Escopo definido no inicio - preditivo
+projeto é controlado por fases e marcos
+Cliente só vê o software funcionando na fase final
+Resistencia a mudanças
+
+Ágil - software contruído por partes (incremental) e cada parte é executado em um ciclo (iterativo)
+Escopo definido ao longo do projeto - adaptativo
+projeto é controlado por funcionalidade entregues
+Cliente pode ver parte do software na parte inicial
+mudanças constantes de acordo com feedbacks continuos
+
+O que é ser ágil?
+
+Ágil é diferente de rápido.
+
+Rapidez na mudança e desembaraço. Fazer coisas complexas de forma simples
+Equipe comprometida com os objetivos. Maior valor para o cliente.
+Ter capacidade de responder rapidamente a mudanças.
+
+SCRUM é um dos frameworks de gerenciamento de projetos ágeis;
+Projetos usando equipes pequenas e multidisciplinares para produzir os melhores resultados.
+
+Conversar mais e escrever menos; Demonstrar o software constantemente aos usuários e obter feedbacks;
+Requisitos mudam ao longo do tempo. Aprender progressivamente com o uso do software
+
+Pilares: Transparência - Adaptação - Inspeção
+
+Razões para adotar:
+Desenvolvido e entregue em partes menores;
+melhor gerenciamento de riscos
+comprometimento, motivação e transparencia da equipe;
+maior valor para o negócio;
+usuários envolvidos duranto o ciclo;
+aplicação das lições aprendidas.
+
+Time SCRUM:
+equipes capazes de organização
+as tarefas são de todos
+compromentimento com o resultado
+
+## Aula 2 - 
+
+* Papeis e responsabilidades:
+
+Product Owner - PO - 
+
+representa a area sde negocios. 
+é uma pessoa, não um comitê.
+prioriza o Backlog.
+define as funcionalidade do software
+prioriza as funcionalidade de acordo com o valor do negocio
+garante que o time de dev entenda os itens do backlog
+
+SCRUM Master - SM - 
+
+Garante o uso correto do SCRUM;
+Não é gerente de projetos;
+Age como facilitador;
+Auxilia o PO no planejamento e estimativas;
+Auxilia a equioe em remover impedimentos;
+treina o time em autogerenciamento e interdisciplinaridade
+
+
+Time de desenvolvimento - DEV (3 a 9 pessoas) - 
+
+possui habilidade suficientes para desenvolver, testar, criar e 
+desenhar, tudo para entregar o software funcionando
+
+## Aula 3 
+
+* Cerimonias
+
+Time box - tempo maximo definido para fazer uma cerimonia ou sprint
+
+Sprint - é o principal evento do SCRUM
+Duração: 30 dias corridos ( ou menos )
+Quem define: o proprio time
+Composição:
+planejamento - reuniões diárias - revisão - retrospectiva
+
+Quem participa do planejamento? Todos participam (PO - SM - DEV)
+Time box: 8 horas
+O que fazer? PO explica para o time o que ele deseja no sprint (4 horas)
+Como fazer? DEV quebra as atividades e entende tecnicamente o que tem que fazer e estima o tempo (4 horas)
+
+Ferramentas:
+Plannig Poker - cada um opina uma estimativa e o time entra em consenso para cada tarefa
+E depois verifica se tudo o que o PO pediu poderá ser entregue em 30 dias.
+
+Reuniões diárias - time-box  - 15 minutos - PO, SM, DEV
+Dev responde: O que fez? O que tem que fazer? quais impedimentos? 
+Tem que ser feita de pé.
+
+Último dia da sprint:
+Revisão - DEV apresenta ao PO o trabalho feito. Tempo - 4 horas
+
+Retrospectiva - Ocorre no último dia. Reunião da equipe para lições aprendidas. 3 horas
+Transparência
+
+## Aula 4 - 
+
+Gestão de projeto tradicional x Ágil
+
+Diferença:
+
+O Ágil responde mais rápido ao negócio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
