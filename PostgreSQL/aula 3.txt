@@ -1,0 +1,65 @@
+## Aula 3
+
+*DML - Data manipulate language
+
+SELECT (campos)
+FROM tabela
+WHERE (condições)
+
+LIKE vs ILIKE - ILIKE é case sensitive
+
+ON CONFLICT - trabalha com CONSTRAINT. Se tiver conflito na PK 
+não faz nada. 
+
+TRUNCATE - esvaziar a tabela
+restart identity - volta o id da tabela para 1
+continue identity - mantém o id da tabela mesmo apagando os valores
+cascade - executa as operações em cascata, respeitando as FK
+restrict - 
+
+* Funções agregadoras
+
+AVG - faz a media
+COUNT - HAVING - Conta as ocorrencias
+MAX - retorna o valor maximo
+MIN - retorna o valor minimo
+SUM - Faz a soma dos valores
+
+* JOIN
+
+INNER JOIN - interseção entre as tabelas
+LEFT JOIN (OUTER) - retorna toda a tabela da esquerda mesmo os vazios
+RIGHT JOIN (OUTER) - retorna toda a tabela da direita mesmo os vazios
+FULL OUTER JOIN - retorna todos os valores de todas as tabelas, mesmo os vazios
+CROSS JOIN - retorna uma matriz
+
+* CTE - common table expression
+
+Forma auxiliar de organizar blocos de codigo para consultas grandes, gerando 
+tabelas temporarias e criando relacionamentos entre elas.
+Dentro de statements podem ter SELECT, INSERT, UPDATE, DELETE
+
+WITH [nome] AS (
+	SELECT (campos)
+	FROM tabela
+	WHERE condição
+), [nome2] AS (
+	SELECT (campos)
+	FROM tabelaB
+	WHERE condição
+)
+
+SELECT [nome].(campos), [nome2].(campos)
+FROM [nome]
+WHERE condição
+
+
+
+
+
+
+
+
+
+
+

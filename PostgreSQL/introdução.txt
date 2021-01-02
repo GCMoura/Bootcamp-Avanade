@@ -1,0 +1,51 @@
+## PostgreSQL
+
+* Fundamentos Banco de Dados
+
+Dados são valores brutos, fatos brutos, que são recolhidos, armazenados
+sem sofrer qualquer alteração
+Informações são estruturas de dados relacionados entre si que geram valor, 
+que criam sentidos aos dados. Material do conhecimento
+
+* Modelo Relacional
+
+Modelo mais comum, que classiffica e organiza as informações em tabelas com linhas e colunas.
+As linhas, ou tuplas, são os dados organizados, são valores das tabelas,
+e as colunas são os atributos desses dados.
+Tabela - são conjuntos de dados dispostos em colunas e linhas referentes a um objetivo comum.
+As colunas são campos da tabela.
+Linhas são chamadas de tuplas.
+
+Tabelas são coisas tangíveis - elemento físico
+Funções - perfis do usuário, status da compra
+Eventos ou ocorrencias - Produtos de um pedido, historico de dados
+
+Colunas importantes:
+Chave primaria - conjunto de um ou mais campos que nunca se repetem.
+São utilizados como indice de referencia na criação de relacionamentos entre tabelas.
+
+Chave estrangeira - valor de referencia a uma PK de outra tabela 
+ou da mesma tabela para criar um relacionamento
+
+SGBD - Conjunto de programas responsaveis pelo gerenciamento de um banco de dados.
+Facilitam a administração de um banco de dados
+
+
+* Introdução POSTGRESQL
+
+É um SGBD OpenSource.
+Trabalha de uma forma relacional.
+1986 - Berkeley
+Point in time recovery
+Linguagem procedural
+Views, functions, triggers, procedures
+Consulta complexas e Common table expression
+PostGIS - dados geográficos
+Controle de concorrência de multi-versão
+
+postmaster
+childs
+Memoria - shared_buffers; wal_buffers; clog_buffers; Lock_buffers
+Storage
+
+No cliente: Interface grafica; terminal; aplicação

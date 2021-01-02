@@ -1,0 +1,93 @@
+## Aula 2
+
+* postgresql.conf
+
+Arquivo que contem todas as configurações do postgresql;
+Como o servidor vai se comportar.
+
+A view pg_settings, acessada por dentro do banco de dados, guarda todas as configurações atuais.
+
+postgresql.conf
+
+SELECT name, setting
+FROM pg_settings
+
+Ou usando o comando: SHOW[parametro]
+
+Fica dentro PGDATA, definido no cluster de banco de dados.
+
+Configurações de conexão:
+
+LISTEN_ADDRESSES -  endereços TCP/IP das interfaces que o servidor
+Postgresql vai escutar
+PORT - A porta TCP que o servidor vai ouvir o padrão 5432
+MAX_CONNECTIONS - número máximo de conexões simultaneas no servidor
+SUPERUSER_RESERVED_CONNECTIONS - numero de conexões (slots) reservadas
+para conexões ao banco de dados de super usuarios
+
+Configuração de autenticação
+
+AUTHETICATION_TIMEOUT - tempo maximo em segundos para o cliente consehguir uma conexão
+PASSWORD_ENCRYPTION - algoritmo de criptografia das senhas dos novos usuarios
+SSL - habilita a conexão criptografada por SSL
+
+Configurações de memoria
+
+SHARED_BUFFER - tamanho da memoria compartilahda do servidor para 
+o Postgresql usar como servidor
+WORK_MEM - tamanho da memoria para operações de agrupamentos e ordenação
+ORDER BY, DISTINCT, MERGE JOINS
+MAINTENANCE_WORK_MEM - tamanho da memoria para operações como VACUUM,
+INDEX, ALTER TABLE
+
+* O arquivo pg_hba.conf
+
+arquivo responsável pelo controle de autenticação de usuarios 
+no servidor postgresql
+
+Metodos de autenticação:
+TRUST - conexão sem senha
+REJECT - rejeitar conexões
+MD5 - criptografia md5
+PASSOWRD - senha sem criptografia
+GSS - generic security service application
+SSPI - para windows
+KRB5 - kerberos v5
+IDENT - utiliza o usuario do sistema operacional do cliente via ident
+PEER - utiliza o usuario do sistema operacional do cliente
+LDAP - ldap server
+RADIUS - radius server
+CERT - autenticação via SSL
+PAM - pluggable authenticate modules.
+
+* Arquivo pg_ident.conf
+
+Arquivo responsável por mapear os usuarios do sistema operacional com os 
+usuarios do banco de dados.
+Localizado no diretorio de dados PGDATA de sua instalação.
+A opção ident deve ser utilizada no arquivo pg_hba.conf
+
+* Arquitetura / Hierarquia
+
+Cluster - Coleção de banco de dados que compartilham as mesmas configurações 
+(arquivos de configuração) do postgresql e dos sistema operacional (porta, listen_addresses, etc)
+
+Banco de dados - é um conjunto de schemas com seus objetos e relacões
+
+Schema - conjunto de objetos e relações (tabelas, funções, views, triggers, pipes)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

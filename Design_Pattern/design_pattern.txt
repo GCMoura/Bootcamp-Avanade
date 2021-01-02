@@ -1,0 +1,23 @@
+## Design Pattern
+
+São soluções reutilizáveis para problemas comumente ocorridos no desenvolvimento de software.
+Estes padrões foram iniciados como melhores práticas que foram aplicadas
+repetidamente a problemas semelhantes encontrados em diferente contextos
+
+SOLID
+
+S - SRP - Principio da responsabilidade única
+	Uma classe deve ter um e somente um motivo para mudar.
+	A Classe é mais facil de ler e testar quando faz apenas uma coisa
+O - OCP - Principio aberto-fechado
+	Voce deve ser capaz de estender um comportamento de uma classe, sem modifica-lo
+L - LSP - Principio da substituição de Liskov
+	As classes base devem ser substituíveis por classes derivadas
+	Classes irmãs devem ser intercambiaveis entre si
+I - ISP - Principio da segregação da interface
+	Muitas interfaces especificas são melhores do que uma interface unica
+D - DIP - Principio da inversão da dependencia
+	Dependa de uma abstração e não de uma implementação
+
+Teste de cobertura
+

@@ -1,0 +1,111 @@
+## Aula 4
+
+* Views
+
+São camadas para as tabelas. São alias para uma ou mais queries.
+Aceitam comandos: select, (insert, update e delete) só quando não tem JOIN
+
+CREATE OR REPLACE VIEW
+
+CREATE OR REPLACE TEMPORARY VIEW - só funciona na janela ativa do terminal,
+
+CREATE OR REPLACE RECURSIVE VIEW -  é uma view que chama ela mesma numa
+especia de loop. De forma recursiva.
+É obrigatório os campo da view. 
+É obrigatorio o uso de UNION ALL
+UNION - agrupa, unifica, resultados iguais
+UNION ALL - não agrupa resultados iguais
+
+WITH LOCAL CHECK OPTIONS - quero validar as informações da view presente
+
+* Transações
+
+conceito fundamental de todos os SGBD. conceito de multiplas etapas/
+codigos reunidos em apenas 1 transação onde o resultado precisa ser 
+tudo ou nada
+
+BEGIN - abre uma transação
+
+ROLLBACK - desfaz todas as transações entre BEGIN e COMMIT
+
+COMMIT - aprova a transação
+
+SAVEPOINT - faz com que qualquer erro que aconteça a aplicação volta até esse
+savepoint.
+
+ROLLBACK também retorna para o SAVEPOINT nomeado
+
+* Funções 
+
+conjunto de códigos para ser usada dentro de uma transação para facilitar
+a programação e obter o reaproveitamento de código
+
+funções:
+query language functions (escritas em SQL)
+procedural language functions (escrita em outras linguagens)
+internal functions -  internas - substring, etc
+C-language functions - escritas em C e C++ compiladas
+
+USER DEFINED FUNCTIONS - criadas pelos usuários
+
+pode criar funções em lingaugens de SQL e procedurais.
+
+PL/PGSQL
+
+IDEMPOTÊNCIA - previne erros, da segurança, melhor prática de programação
+
+CREATE OR REPLACE FUNCTION [nome da função]
+regras: mesmo nome; mesmo tipo de retorno; mesmo numero de parametros
+
+RETURNS
+tipos de retorno:
+INT - CHAR - BOOLEAN - ROW - TABLE - JSON
+
+SECURITY
+
+INVOKER - padrão. voce vai permitir que a função seja executada com as 
+permissão do usuario que está usando a função
+DEFINER - o usuario que está usando executa com as permissões de quem
+criou a função
+
+*Comportamento:
+IMMUTABLE - não pode alterar o banco de dados. Garantem o mesmo resultado para os
+mesmos argumentos da função. Evita o uso de select
+
+STABLE - não pode alterar o banco de dados. permite select.
+
+VOLATILLE - padrão. aceita todos os cenarios
+
+*Segurança:
+
+CALLED ON NULL INPUT - padrão. se qualquer parametro vier nulo,
+a função executa da mesma forma
+
+RETURNS NULL ON NULL INPUT - não executa função se parametro nulo.
+
+*Recursos:
+COST - custo em unidades de CPU
+ROWS - numero estimado de linhas que será analisada pelo planner
+
+SQL FUNCTIONS:
+
+Não é possivel executar transações
+
+$$ significa entre esses simbolos é o corpo da função
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

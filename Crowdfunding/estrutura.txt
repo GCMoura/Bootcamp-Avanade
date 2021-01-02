@@ -1,0 +1,30 @@
+## Teste de Unidade / UnitTest
+
+Unidade: menor parte testável de um software
+POO - Classe é a menor parte testável
+
+## Teste de integração
+
+Encontrar falhas de integração enttre as unidades, e não mais em 
+testar as funcionalidades da mesma
+
+Integração entre unidades ou entre sistemas.
+
+Verifica como as unidades se comunicam, ou sistemas.
+
+## Teste de automatização
+
+Simula ações do usuário
+Aceitação: caixa preta
+Reggressão: garante integridade de versões passadas
+Processo de automatização é caro: selecionar funcionalidades
+
+MVC -
+
+Model- armazena, manipula e gera os dados
+View - Apresenta o conteudo por meio da interface do usuario
+Controller - Cuida da interação do usuario, trabalham com o model e
+selecionam a view a ser renderizada
+
+
+
